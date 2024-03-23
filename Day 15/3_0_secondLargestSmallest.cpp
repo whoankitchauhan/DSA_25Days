@@ -13,6 +13,26 @@ vector<int> getSecondOrderElements(int n, vector<int> a)
     int secondLargest = a[n - 2];
     int secondSmallest = a[1];
 
+    // Handling duplicates for second largest
+    for (int i = n - 3; i >= 0; i--)
+    {
+        if (a[i] != secondLargest)
+        {
+            secondLargest = a[i];
+            break;
+        }
+    }
+
+    // Handling duplicates for second smallest
+    for (int i = 2; i < n; i++)
+    {
+        if (a[i] != secondSmallest)
+        {
+            secondSmallest = a[i];
+            break;
+        }
+    }
+
     // Return the result as a vector
     return {secondLargest, secondSmallest};
 }
@@ -28,8 +48,8 @@ int main()
     vector<int> result2 = getSecondOrderElements(4, input2);
     cout << "Output 2: " << result2[0] << " " << result2[1] << endl;
 
-    vector<int> input3 = {4, 5, 3, 6, 7};
-    vector<int> result3 = getSecondOrderElements(5, input3);
+    vector<int> input3 = {4, 5, 3, 6, 7, 7};
+    vector<int> result3 = getSecondOrderElements(6, input3);
     cout << "Output 3: " << result3[0] << " " << result3[1] << endl;
 
     return 0;
