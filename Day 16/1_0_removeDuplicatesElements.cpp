@@ -2,12 +2,6 @@
 #include <vector>
 
 using namespace std;
-
-// Function to remove duplicates from a sorted array
-// Parameters:
-//   arr: Reference to the input array of integers (sorted)
-// Returns:
-//   Length of the modified array after removing duplicates
 int removeDuplicates(vector<int> &arr)
 {
     int n = arr.size();
