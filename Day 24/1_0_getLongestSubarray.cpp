@@ -37,7 +37,7 @@ int getLongestSubarray(vector<int> &nums, int targetSum)
         }
     }
     return maxSubarrayLength; // Return the maximum length of subarray with sum equal to targetSum
-}
+} 
 
 int main()
 {
