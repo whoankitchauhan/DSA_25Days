@@ -31,7 +31,7 @@ string read(int n, vector<int> book, int target)
 
     return "NO"; // If no such pair is found, return "NO"
 }
-
+ 
 int main()
 {
     // Example usage
