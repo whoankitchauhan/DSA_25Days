@@ -105,7 +105,6 @@ void pattern8(int n)
         cout << endl;
     }
 }
-
 void pattern9(int n)
 {
     for (int i = 0; i < n; i++)
@@ -136,7 +135,6 @@ void pattern9(int n)
         cout << endl;
     }
 }
-
 void pattern10(int n)
 {
     for (int i = 1; i <= n; i++)
@@ -215,7 +213,6 @@ void pattern12(int n)
         cout << "\n";
     }
 }
-
 void pattern13(int n)
 {
     int num = 1;
@@ -258,7 +255,6 @@ void pattern15(int n)
         cout << endl;
     }
 }
-
 void pattern16(int n)
 {
     char a = 'A';
@@ -272,7 +268,6 @@ void pattern16(int n)
         a++;
     }
 }
-
 void pattern17(int n)
 {
 
@@ -303,7 +298,6 @@ void pattern17(int n)
         cout << endl;
     }
 }
-
 void pattern18(int n)
 {
 
@@ -319,7 +313,6 @@ void pattern18(int n)
         cout << endl;
     }
 }
-
 void pattern19(int n)
 
 {
@@ -377,7 +370,6 @@ void pattern19(int n)
         cout << "\n";
     }
 }
-
 void pattern20(int n)
 {
 
@@ -413,7 +405,6 @@ void pattern20(int n)
         }
     }
 }
-
 void pattern21(int n)
 {
 
