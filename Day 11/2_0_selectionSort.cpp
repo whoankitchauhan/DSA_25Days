@@ -2,7 +2,7 @@
 using namespace std;
 
 // Function to perform Selection Sort on an array
-void selectionSort(int arr[], int n)
+void selectionSort(int arr[], int n) 
 {
     // Iterate through the array
     for (int i = 0; i < n - 1; i++)
