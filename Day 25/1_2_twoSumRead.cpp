@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
+using namespace std; 
 
 string read(int n, vector<int> book, int target)
 {
