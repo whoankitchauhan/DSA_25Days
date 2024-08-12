@@ -62,14 +62,22 @@ void pattern5(int n)
 }
 void pattern6(int n)
 {
-    int col = n;
+    // int col = n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     for (int j = 1; j <= col; j++)
+    //     {
+    //         cout << j << " ";
+    //     }
+    //     col--;
+    //     cout << endl;
+    // }
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= col; j++)
+        for (int j = 1; j <= n - i + 1; j++)
         {
             cout << j << " ";
         }
-        col--;
         cout << endl;
     }
 }
@@ -475,7 +483,7 @@ int main()
     // pattern3(n);
     // pattern4(n);
     // pattern5(n);
-    // pattern6(n);
+    pattern6(n);
     // pattern7(n);
     // pattern8(n);
     // pattern9(n);
