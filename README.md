@@ -1,8 +1,8 @@
-# DSA Mastery: 50-Day Coding Challenge in C++
+# DSA Mastery: 25-Day Coding Challenge in C++
 
 ## Welcome
 
-Welcome to my 50-day coding challenge, where I explore and master Data Structures and Algorithms (DSA) using C++. This repository showcases my daily code submissions, featuring comprehensive explanations, problem statements, and noteworthy insights.
+Welcome to my 25-day coding challenge, where I explore and master Data Structures and Algorithms (DSA) using C++. This repository showcases my daily code submissions, featuring comprehensive explanations, problem statements, and noteworthy insights.
 
 ## Objective
 
