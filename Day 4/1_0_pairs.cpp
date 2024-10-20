@@ -31,7 +31,7 @@ int main()
         cout << "(" << p.first << ", " << p.second << ") ";
     }
 
-    //     for (const auto &p : pairArr): This is a range-based for loop. It iterates over each element (p) in the array pairArr.
+    // for (const auto &p : pairArr): This is a range-based for loop. It iterates over each element (p) in the array pairArr.
 
     // cout << "(" << p.first << ", " << p.second << ") ";: This prints the content of the current pair. It uses p.first to access the first element of the pair and p.second to access the second element. The elements are printed within parentheses and separated by a comma.
     return 0;
